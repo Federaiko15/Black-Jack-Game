@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Black Jack</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+        <h1>
+            Black Jack <img src="carte-napoletane.jpg" alt="">
+        </h1> 
+        <div class="conteiner">
+            <div id="house-score">
+                House score: <div class="line" id="house-points"></div>
+            </div>
+            <div id="player-card"></div>
+            <div class="line">
+                This is your score: <div class="line" id="points">0</div>
+            </div>
+            <ul id="added-cards"></ul>
+            <button class="button" id="add">Add a new Card and get Points</button>
+            <button class="button" id="stay">Stay</button>
+        </div>
+        <div id="final"></div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
